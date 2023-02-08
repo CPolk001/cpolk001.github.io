@@ -1,0 +1,49 @@
+/* CSS for resume */
+
+#title {
+	text-align: center;
+	font-family: 'Dancing Script', serif;
+}
+
+#contact {
+	text-align: center;
+	font-family: 'Dancing Script', serif;
+}
+
+#contactinfo {
+	text-align: center;
+	font-family:'Roboto Condensed', sans-serif;
+}
+
+#carson img {
+  	border-radius: 50%;
+}
+
+#skills {
+	font-family: 'Dancing Script', serif;
+}
+
+#skillsinfo {
+	font-family:'Roboto Condensed', sans-serif;
+}
+
+#education {
+	font-family: 'Dancing Script', serif;
+}
+
+#educationinfo {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#experience {
+	font-family: 'Dancing Script', serif;
+}
+
+#experienceinfo {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#table {
+	text-align: center;
+	font-family: 'Dancing Script', serif;
+}
