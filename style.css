@@ -1,147 +1,79 @@
-/* CSS for resume */
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
 
-html {
+.container {
+	border: 3px solid black;
+}
+
+.col-md-7 {
 	background: url(honeycomb.png);
-	background-color: #89D5D2;
+	background-color: #3C738B;
+	color: white;
+	font-family: "Roboto Condensed", serif;
 }
 
+.col-md-3 {
+	background: url(honeycomb.png);
+	background-color: #3C738B;
+}
+
+.col-md-2 {
+	background: url(honeycomb.png);
+	background-color: #3C738B;
+}
+
+.col-md-6 {
+	background-color: #F4EFE1;
+	font-family: "Roboto Condensed", serif;
+}
+	
+.cpicon {
+	margin-left: 50px;
+	width: 25%;
+}
+
+.card {
+	font-family: "Roboto Condensed", serif;
+	background: url(honeycomb.png);
+	background-color: #F4EFE1;
+	text-align: center;
+}
+
+img {
+	margin-left: 31.5px;
+}
+
+/* unvisited link */
 a:link {
-  color: #fff;
+  color: lightsalmon;
 }
 
+/* visited link */
 a:visited {
-  color: #228B22; 
+  color: gray;
 }
 
+/* mouse over link */
 a:hover {
-  color: #ab88d5;
+  color: red;
 }
 
+/* selected link */
 a:active {
-  color: #1a4b49;
+  color: blue;
 }
 
-a[href^="mailto:polkcb@dukes.jmu.edu"]:link {
-  color: #fff;
+h2, h3, h4, h5 {
+	font-family: "Dancing Script", serif;
 }
 
-a[href^="mailto:polkcb@dukes.jmu.edu"]:visited {
-  color: #228B22; 
-}
-
-a[href^="mailto:polkcb@dukes.jmu.edu"]:hover {
-  color: #ab88d5;
-}
-
-a[href^="mailto:polkcb@dukes.jmu.edu"]:active {
-  color: #1a4b49;
-}
-
-ul {
-  list-style-image: url('drumstick.png');
-}
-
-table, tr, td {
-  border: 3px solid black;
-  border-collapse: collapse;
-}
-
-table.center {
-  margin-left: auto; 
-  margin-right: auto;
-}
-
-#title {
+#textbox1 {
 	text-align: left;
-	font-family: 'Dancing Script', serif;
-	font-size: 25px;
-	margin-left: 500px;
 }
 
-#contact {
-	text-align: left;
-	font-family: 'Dancing Script', serif;
-	font-size: 25px;
-	text-decoration: underline;
-	margin-left: 370px;
-	margin-top: 75px;
+#textbox2 {
+	text-align: center;
 }
 
-#contactinfo {
-	text-align: left;
-	font-family:'Roboto Condensed', sans-serif;
-	font-size: 18px;
-	line-height: 180%;
-	margin-left: 370px;
-}
-
-#carson img {
-  	border-radius: 50%;
-  	margin-left: 350px;
-  	margin-top: -200px;
- }
-
-#skills {
-	text-align: left;
-	font-family: 'Dancing Script', serif;
-	font-size: 25px;
-	text-decoration: underline;
-	margin-left: 100px;
-}
-
-#skillsinfo {
-	text-align: left;
-	font-family:'Roboto Condensed', sans-serif;
-	font-size: 18px;
-	letter-spacing: 1.5px;
-	margin-left: 100px;
-}
-
-#education {
-	font-family: 'Dancing Script', serif;
-	font-size: 25px;
-	text-decoration: underline;
-	margin-left: 925px;
-	margin-top: -275px;
-}
-
-#educationinfo {
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 18px;
-	letter-spacing: 1.5px;
-	margin-left: 925px;
-	margin-top: 0px;
-}
-
-#experience {
-	font-family: 'Dancing Script', serif;
-	font-size: 25px;
-	text-decoration: underline;
-	margin-left: 100px;
-	margin-top: 100px;
-}
-
-#experienceinfo {
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 18px;
-	letter-spacing: 1.5px;
-	margin-left: 100px;
-}
-
-#table {
-	text-align: left;
-	font-family: 'Dancing Script', serif;
-	font-size: 25px;
-	text-decoration: underline;
-	margin-left: 925px;
-	margin-top: -675px;
-}
-
-#tableinfo {
-	text-align: left;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 18px;
-	letter-spacing: 1.5px;
-	margin-left: 925px;
-	margin-top: 0px;
+#textbox3 {
+	text-align: right;
 }
